@@ -1,0 +1,143 @@
+* {
+    font-family: "Rubik", serif;
+    font-style: solid;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.contenedorFondoh2 {
+    background-color: #48a36c;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+h2 {
+    color: #48a36c;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 21px;
+    position: relative;
+}
+
+form {
+    background-color: #12793b;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 500px;
+    height: 550px;
+    padding: 0 10px;
+    border-bottom: 5px #005323 solid;
+    border-top: 5px #005323 solid;
+}
+
+label {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-left: 95px;
+    font-size: 20px;
+}
+
+input {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #12793b;
+    width: 300px;
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-left: 90px;
+}
+
+
+.la-tshirt {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    right: 350px;
+}
+
+.la-tag {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    right: 350px;
+}
+
+.la-dollar-sign {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    right: 350px;
+}
+
+.la-image {
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    top: 7px;
+    right: 355px;
+}
+
+#imagen_producto {
+    color: #12793b;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #48a36c;
+    color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 320px;
+    height: 50px;
+ 
+}
+
+.volverListaProducto {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    top: 35px;
+    left: 91px;
+}
+
+.volverListaProducto:hover {
+    color: #00ff00;
+}
+
+input:focus {
+    border-bottom: 2px #00ff66 solid;
+}
+
+.la-tag:focus{
+    color: #00ff66;
+}
+
+button:hover {
+    background-color: #4bc57c;
+    transform: scale(1.1);
+}

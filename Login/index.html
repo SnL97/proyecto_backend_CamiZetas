@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'>
+
+      <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+<body>
+<!-- Form-->
+<div class="form">
+  <div class="form-toggle"></div>
+  <div class="form-panel one">
+    <div class="form-header">
+      <h1>Iniciar Sesión</h1>
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">Usuario</label>
+          <input type="text" id="username" name="username" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" required="required"/>
+        </div>
+        <div class="form-group">
+          <label class="form-remember">
+            <input type="checkbox"/>Recuérdame
+          </label><a class="form-recovery" href="#">¿Olvidó la Contraseña?</a>
+        </div>
+        <div class="form-group">
+          <a class="entrar" href="../Productos/productos.php">Entrar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="form-panel two">
+    <div class="form-header">
+      <h1>Registrar Cuenta</h1>
+    </div>
+    <div class="form-content">
+      <form>
+        <div class="form-group">
+          <label for="username">Usuario</label>
+          <input type="text" id="username" name="username" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="cpassword">Confirmar Contraseña</label>
+          <input type="password" id="cpassword" name="cpassword" required="required"/>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required="required"/>
+        </div>
+        <div class="form-group">
+          <button class="entrar registrar" type="submit">Registrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <a class="volverInicio" href="../index.html">⬅ Volver al Inicio</a>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://codepen.io/andytran/pen/vLmRVp.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

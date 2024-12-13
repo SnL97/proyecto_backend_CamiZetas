@@ -1,0 +1,165 @@
+* {
+    font-family: "Rubik", serif;
+    font-style: solid;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.productoFondo {
+    background-color: #48a36c;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+h2 {
+    color: #48a36c;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 21px;
+    position: relative;
+}
+
+.volverInicioContenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.volverInicio {
+    position: absolute;
+    color: #269755;
+    text-decoration: none;
+    margin-right: 550px;
+    margin-top: 65px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.volverInicio:hover {
+    color: #00ff00;
+}
+
+.agregarContenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.agregar {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #33ca6f;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.agregar:hover {
+    background-color: #4ed484;
+}
+
+.la-plus {
+    color: #fff;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+}
+
+.imagenCamiseta {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    position: relative;
+    width: 800px;
+    padding-bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 5%);
+}
+
+thead {
+    background-color: #48a36c;
+    color: #fff;
+}
+
+#configurar {
+    background-color: #2f724aa2;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    background-color: #f1f1f1d0;
+    border: 2px solid #e2e2e286;
+}
+
+.marca {
+    text-align: center;
+}
+
+.precio {
+    font-weight: 450;
+    text-align: center;
+}
+
+.precio::before {
+    content: "$";
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+.productoTh {
+    width: 400px;
+}
+
+.botonContenedor {
+    background-color: #dfdede8f;
+    width: 70px;
+}
+
+.editar {
+    position: relative;
+    color: #00a2ff;
+    cursor: pointer;
+    font-size: 17px;
+    right: 17px;
+    top: 8px;
+}
+
+.la-pen:hover {
+    transform: scale(1.1);
+}
+
+.eliminar {
+    position: relative;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 17px;
+    left: 40px;
+    bottom: 10px;
+}
+
+.la-times:hover {
+    transform: scale(1.1);
+}
